@@ -1,0 +1,206 @@
+/*!
+Theme Name: Sefiani
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: sefiani
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Sefiani is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.alignleft {
+
+    /*rtl:ignore*/
+    float: left;
+
+    /*rtl:ignore*/
+    margin-right: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.alignright {
+
+    /*rtl:ignore*/
+    float: right;
+
+    /*rtl:ignore*/
+    margin-left: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+}
+
+
+/* CUSTOM STYLE*/
+.footer__main-info .textwidget p:last-child {
+    margin-bottom: 16px;
+}
+
+.section-jumbotron__partners > h4 {
+    font-size: 16px;
+}
+.theme-thanks .section-white.section-text .btn {
+    font-size: 16px;
+    background-color: #C63738;
+    padding: 0 63px;
+    height: 63px;
+    line-height: 63px;
+}
+.theme-thanks .section-white.section-text .btn:hover {
+    background: #6d080d;
+}
+.hidden_label label{
+    display: none !important;
+}
+.section--details .gform_button{
+
+}
+.section-key-list-js .section-key__media-col{
+    width: 100%;
+    height: 100%;
+}
+.section-jumbotron .section-jumbotron__content {
+    padding-left: 60px;
+    padding-right: 25px;
+}
+.section-jumbotron .section-jumbotron__content h1{
+    line-height: 1;
+}
+.section-jumbotron__content {
+    background-position: 86% !important;
+}
+
+@media (max-width: 1195px){
+    .section-values__content {
+        width: 50% !important;
+    }
+    .section-values__photo {
+        width: 50% !important;
+        margin: 0  !important;
+    }
+
+    .section--details .section--details__slider {
+        padding: 23px 23px 0 23px !important;
+    }
+    .section--details {
+        padding: 36px 0 42px 0 !important;
+    }
+    .section--details .details-slider {
+        padding-bottom: 45px !important;
+    }
+
+	.header-brand {
+		font-style: normal !important;
+	}
+}
+
+@media (max-width: 767px) {
+    .h1, h1, .h2, h2, .btn, .news__link, .news__title, .section__title, .section__tag {
+        font-style: normal !important;
+    }
+    .section-values__photo {
+        width: -webkit-calc(100% + 68px) !important;
+        width: -moz-calc(100% + 68px) !important;
+        width: calc(100% + 68px) !important;
+        margin: 0 -34px !important;
+    }
+    .section-values__content {
+        width: 100% !important;
+    }
+    .header-nav
+    {
+        visibility: visible !important;
+        position: relative !important;
+        left: initial !important;
+        right: 0 !important;
+        top: initial !important;
+        display: block !important;
+        opacity: 1 !important;
+        background: transparent !important;
+        padding: 0 !important;
+        margin-right: -35px !important;
+        pointer-events: auto !important;
+    }
+    .header-nav .btn {
+        height: 90px !important;
+        line-height: 90px !important;
+        pointer-events: auto !important;
+    }
+    .reviews-slider__title {
+        font-size: 16px;
+    }
+    .section-jumbotron .section-jumbotron__content {
+        padding-left: 34px;
+        padding-right: 34px;
+    }
+}
+
+@media (min-width: 768px) {
+    .news__title {
+        min-height: 80px;
+    }
+    .home .section-white.section--news {
+        padding: 65px 0 149px;
+    }
+}
+@media (max-width: 450px) {
+    .section-values .section-values__content .section__tag br {
+        display: none;
+    }
+}
+@media (max-width: 335px) {
+	.section-text__block .btn {
+		padding: 0 4px;
+	}
+}
+.section--news .news-slider__next, .section--news .news-slider__prev {
+    width: 95px;
+    height: 146px;
+    position: absolute;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    top: 50%;
+    margin-top: -73px;
+}
+.section--news .news-slider__prev {
+    left: 0;
+    right: 0;
+}
+.section--news .swiper-button-prev {
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+.section--news .news-slider__next {
+    right: 0;
+    left: auto;
+}
+.section--news .swiper-button-next {
+    padding-left: 20px;
+    justify-content: flex-start;
+}
+@media (max-width: 1364px){
+	.section--news .news-slider__next, .section--news .news-slider__prev{
+		display: none !important;
+	}
+}

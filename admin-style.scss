@@ -1,0 +1,28 @@
+@import "fonts";
+
+.wp-block.editor-post-title__block {
+  max-width: 100%;
+}
+
+.wp-block {
+  max-width: 100%;
+}
+
+.block-editor-block-list__block {
+  margin-top: 0;
+  margin-bottom: 0;
+} 
+
+.wp-block .acf-block-preview {
+  @import "css/main";
+  @import "css/custom";
+  @import "style";
+}
+
+.wp-block .acf-block-preview{
+  @import "css/custom-admin-style";
+}
+
+.wp-block .acf-block-preview  *{
+  pointer-events: none;
+} 
